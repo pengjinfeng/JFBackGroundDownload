@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BackgroundTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmP-kB-wNl">
+                                <rect key="frame" x="223" y="100" width="154" height="30"/>
+                                <state key="normal" title="background Download"/>
+                                <connections>
+                                    <action selector="backgroundTask" destination="BYZ-38-t0r" eventType="touchUpInside" id="i7y-tz-Ah5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjr-uC-kUC">
+                                <rect key="frame" x="240" y="170" width="121" height="30"/>
+                                <state key="normal" title="backgroundFetch"/>
+                                <connections>
+                                    <action selector="backgroundFetch" destination="BYZ-38-t0r" eventType="touchDragOutside" id="WIP-PG-7gO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M07-ek-V2B">
+                                <rect key="frame" x="240" y="310" width="120" height="30"/>
+                                <state key="normal" title="申请后台短暂运行"/>
+                                <connections>
+                                    <action selector="requestTime" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6H-gK-SvV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgN-2r-TDY">
+                                <rect key="frame" x="240" y="380" width="120" height="30"/>
+                                <state key="normal" title="申请后台永久运行"/>
+                                <connections>
+                                    <action selector="requestTimeforvor" destination="BYZ-38-t0r" eventType="touchUpInside" id="7IZ-r4-YRN"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TZn-FM-L7M">
+                                <rect key="frame" x="100" y="78" width="400" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRO-dd-if7">
+                                <rect key="frame" x="257" y="240" width="87" height="30"/>
+                                <state key="normal" title="remote Push"/>
+                                <connections>
+                                    <action selector="remotePush" destination="BYZ-38-t0r" eventType="touchUpInside" id="mVI-0s-32h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M07-ek-V2B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="06k-3y-r7B"/>
+                            <constraint firstItem="Gjr-uC-kUC" firstAttribute="top" secondItem="mmP-kB-wNl" secondAttribute="bottom" constant="40" id="29a-c3-Idv"/>
+                            <constraint firstItem="QgN-2r-TDY" firstAttribute="top" secondItem="M07-ek-V2B" secondAttribute="bottom" constant="40" id="8eL-QL-ZR0"/>
+                            <constraint firstItem="mmP-kB-wNl" firstAttribute="top" secondItem="TZn-FM-L7M" secondAttribute="bottom" constant="20" id="Adg-6S-EuD"/>
+                            <constraint firstItem="QgN-2r-TDY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BUz-Ch-JAz"/>
+                            <constraint firstAttribute="trailing" secondItem="TZn-FM-L7M" secondAttribute="trailing" constant="100" id="Iok-St-n2d"/>
+                            <constraint firstItem="bRO-dd-if7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VnO-gJ-JDX"/>
+                            <constraint firstItem="bRO-dd-if7" firstAttribute="top" secondItem="Gjr-uC-kUC" secondAttribute="bottom" constant="40" id="dEU-b1-gvb"/>
+                            <constraint firstItem="M07-ek-V2B" firstAttribute="top" secondItem="bRO-dd-if7" secondAttribute="bottom" constant="40" id="eDk-68-xBe"/>
+                            <constraint firstItem="mmP-kB-wNl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="qWx-50-aT2"/>
+                            <constraint firstItem="Gjr-uC-kUC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yk9-JM-0Gl"/>
+                            <constraint firstItem="TZn-FM-L7M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="yxp-2S-4VN"/>
+                            <constraint firstItem="mmP-kB-wNl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zIA-ow-7Wr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressView" destination="TZn-FM-L7M" id="92Y-0u-GGd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

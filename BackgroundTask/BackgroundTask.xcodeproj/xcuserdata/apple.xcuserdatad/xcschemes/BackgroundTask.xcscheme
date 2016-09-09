@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "183663541D027E4D004C2E33"
-               BuildableName = "JFBackground.app"
-               BlueprintName = "JFBackground"
-               ReferencedContainer = "container:JFBackground.xcodeproj">
+               BlueprintIdentifier = "18194ED01D7FF7A0009F93D8"
+               BuildableName = "BackgroundTask.app"
+               BlueprintName = "BackgroundTask"
+               ReferencedContainer = "container:BackgroundTask.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "183663541D027E4D004C2E33"
-            BuildableName = "JFBackground.app"
-            BlueprintName = "JFBackground"
-            ReferencedContainer = "container:JFBackground.xcodeproj">
+            BlueprintIdentifier = "18194ED01D7FF7A0009F93D8"
+            BuildableName = "BackgroundTask.app"
+            BlueprintName = "BackgroundTask"
+            ReferencedContainer = "container:BackgroundTask.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "183663541D027E4D004C2E33"
-            BuildableName = "JFBackground.app"
-            BlueprintName = "JFBackground"
-            ReferencedContainer = "container:JFBackground.xcodeproj">
+            BlueprintIdentifier = "18194ED01D7FF7A0009F93D8"
+            BuildableName = "BackgroundTask.app"
+            BlueprintName = "BackgroundTask"
+            ReferencedContainer = "container:BackgroundTask.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "183663541D027E4D004C2E33"
-            BuildableName = "JFBackground.app"
-            BlueprintName = "JFBackground"
-            ReferencedContainer = "container:JFBackground.xcodeproj">
+            BlueprintIdentifier = "18194ED01D7FF7A0009F93D8"
+            BuildableName = "BackgroundTask.app"
+            BlueprintName = "BackgroundTask"
+            ReferencedContainer = "container:BackgroundTask.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

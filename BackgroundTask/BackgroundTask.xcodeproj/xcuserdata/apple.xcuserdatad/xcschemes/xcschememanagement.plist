@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JFBackground.xcscheme</key>
+		<key>BackgroundTask.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>183663541D027E4D004C2E33</key>
+		<key>18194ED01D7FF7A0009F93D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
